@@ -1,6 +1,6 @@
 {
   "bot-account": {
-    "username": "harun_bot",
+    "username": "Harun_bot",
     "password": "",
     "type": "mojang"
   },
@@ -20,7 +20,7 @@
 
   "utils": {
     "auto-auth": {
-      "enabled": true,
+      "enabled": false,
       "password": "12345678"
     },
 
@@ -31,14 +31,14 @@
 
     "chat-messages": {
       "enabled": true,
-      "repeat": true,
-      "repeat-delay": 60,
+      "repeat": false,
+      "repeat-delay": 1,
 
       "messages": [
-        "Sonsuz Kodlama Bundle Script ",
-        "Unutulmayan UlanGT ",
-        "Sadece ben varım ",
-        "Visit my GitHub page! (UlanGTBOT)"
+        "/login a12345 ",
+        "/towny1",
+        "/tpa harun_fr",
+        "/tpa harun_fr"
       ]
     },
 
