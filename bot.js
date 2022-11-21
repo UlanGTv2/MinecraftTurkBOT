@@ -21,7 +21,7 @@ function createBot() {
    bot.settings.colorsEnabled = false;
 
    bot.once('spawn', () => {
-      console.log('\x1b[33m[BotLog] Bot joined to the server', '\x1b[0m');
+      console.log('\x1b[33m[BotLog] sunucuya katıldı', '\x1b[0m');
 
       if (config.utils['auto-auth'].enabled) {
          console.log('[INFO] Started auto-auth module');
@@ -61,7 +61,7 @@ function createBot() {
 
       if (config.position.enabled) {
          console.log(
-            `\x1b[32m[BotLog] Starting moving to target location (${pos.x}, ${pos.y}, ${pos.z})\x1b[0m`
+            `\x1b[32m[BotLog] Hedef konuma taşınmaya başlama. (${pos.x}, ${pos.y}, ${pos.z})\x1b[0m`
          );
          bot.pathfinder.setMovements(defaultMove);
          bot.pathfinder.setGoal(new GoalBlock(pos.x, pos.y, pos.z));
@@ -83,13 +83,13 @@ function createBot() {
 
    bot.on('goal_reached', () => {
       console.log(
-         `\x1b[32m[BotLog] Bot arrived to target location. ${bot.entity.position}\x1b[0m`
+         `\x1b[32m[BotLog] Bot hedef konuma ulaştı. ${bot.entity.position}\x1b[0m`
       );
    });
 
    bot.on('death', () => {
       console.log(
-         `\x1b[33m[BotLog] Bot has been died and was respawned ${bot.entity.position}`,
+         `\x1b[33m[BotLog] Bot öldü ve yeniden doğdu. ${bot.entity.position}`,
          '\x1b[0m'
       );
    });
@@ -105,7 +105,7 @@ function createBot() {
    bot.on('kicked', (reason) =>
       console.log(
          '\x1b[33m',
-         `[BotLog] Bot was kicked from the server. Reason: \n${reason}`,
+         `[BotLog] Bot sunucudan atıldı. Reason: \n${reason}`,
          '\x1b[0m'
       )
    );
