@@ -1,0 +1,49 @@
+{
+  "bot-account": {
+    "username": "harun_bot",
+    "password": "",
+    "type": "mojang"
+  },
+
+  "server": {
+    "ip": "mc.craftlime.net",
+    "port": 25565,
+    "version": "1.16.5"
+  },
+
+  "position": {
+    "enabled": false,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+
+  "utils": {
+    "auto-auth": {
+      "enabled": true,
+      "password": "12345678"
+    },
+
+    "anti-afk": {
+      "enabled": false,
+      "sneak": false
+    },
+
+    "chat-messages": {
+      "enabled": true,
+      "repeat": true,
+      "repeat-delay": 60,
+
+      "messages": [
+        "Sonsuz Kodlama Bundle Script ",
+        "Unutulmayan UlanGT ",
+        "Sadece ben varım ",
+        "Visit my GitHub page! (UlanGTBOT)"
+      ]
+    },
+
+    "chat-log": true,
+    "auto-reconnect": true,
+    "auto-reconnect-delay": 10000
+  }
+}
