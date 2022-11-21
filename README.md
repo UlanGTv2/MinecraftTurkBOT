@@ -4,30 +4,30 @@
 </p>
 
 <p align="center">
-    Anti-AFK, Auto-Auth, Microsoft/Mojang accounts support.
+    Anti-AFK, Otomatik Kimlik Doğrulama, Microsoft/Mojang hesap desteği.
 </p>
 
-## Installation
+## Kurulum
 
- 1. [Download](https://github.com/urFate/Afk-Bot/tags) the latest package.
+ 1. [Download](https://github.com/UlanGTv2/MinecraftTurkBOT#features) the latest package.
  2. Download & install [Node.JS](https://nodejs.org/en/download/)
  3. Run `npm install` command in bot directory.
  
- ## Usage
+ ## Kullanışı
  
- 1. Configure bot in `settings.json` file. [Configuration Reference](https://github.com/urFate/Afk-Bot/wiki/Configuring-bot-(settings.json))
+ 1. Configure bot in `settings.json` file. [Configuration Reference](https://github.com/UlanGTv2/MinecraftTurkBOT/wiki))
  2. Start bot with `node .` command.
 
-## Features
+## Özellikler
 
- - Anti-AFK Kick Module
- - Move to target block after join
- - Mojang/Microsoft Account support
- - Chat log
- - Chat messages Module
- - Auto reconnect
- - Supported server versions: `1.8 - 1.18.2`
+ - Anti-AFK Tekme Modülü
+ - Birleştirmeden sonra hedef bloğa git
+ - Mojang/Microsoft Hesabı desteği
+ - Sohbet günlüğü
+ - Sohbet mesajları Modülü
+ - Otomatik yeniden bağlanma
+ - Desteklenen sunucu sürümü: `1.8 - 1.18.2`
  
- ### License
- [MIT](https://github.com/urFate/Afk-Bot/blob/main/LICENSE)
+ ### Lisans
+ [MIT](https://github.com/UlanGTv2/MinecraftTurkBOT/blob/main/LICENSE)
 
